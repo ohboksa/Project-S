@@ -102,7 +102,8 @@ void Loding_Bar();
 void Battlefield();
 
 int main()
-{
+{	
+	system("chcp 65001");   /* 깨짐오류 방지를 위한 콘솔 출력 변경 */
 	system("mode con cols=101 lines=55");
 	MainManu();
 }
